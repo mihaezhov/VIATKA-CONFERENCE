@@ -1,0 +1,787 @@
+body,
+html {
+  width: 100%;
+  overflow-x: hidden;
+  background-color: black;
+  cursor: url(../img/icon_star.svg), auto;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+section {
+  position: relative;
+}
+
+.section1 {
+  background-image: url(../img/selection1/stripes.svg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 50vw;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  overflow: hidden;
+}
+
+.section2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 50vw;
+  overflow: hidden;
+  text-align: center;
+}
+
+.onetwo {
+  font-family: 'TeletactileLatCyr';
+  font-size: 40vw;
+  color: #ffffff;
+  animation: updown 2s ease infinite;
+  z-index: 2;
+}
+
+.zavod {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 7vw;
+  font-family: 'TeletactileLatCyr';
+  color: white;
+  margin-top: 3vh;
+  max-width: 100%;
+  z-index: 2;
+  animation: zavod 3s infinite;
+}
+
+.face {
+  flex: 1 1 40vw;
+  text-align: center;
+}
+
+.text_left {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3vw;
+  justify-content: space-between;
+}
+
+.viatkatech_wrap {
+  position: absolute;
+  top: 15vh;
+  left: 13vw;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-size: 1.3vw;
+  font-family: 'Inter-Regular';
+  font-weight: 570;
+  line-height: 1.2vw;
+  text-align: left;
+  z-index: 2;
+  animation: bounce9 3s infinite linear;
+}
+
+.line2 {
+  display: block;
+  margin: 0;
+}
+
+.conference_text {
+  position: absolute;
+  top: 130vh;
+  left: 20vw;
+  color: white;
+  font-size: 4vw;
+  font-family: 'Inter-Regular';
+  font-weight: 570;
+  text-align: center;
+  z-index: 2;
+  background-color: rgb(241, 48, 50);
+  border: 6px solid rgb(99, 76, 0);
+  padding: 0.5vw 1vw;
+  box-sizing: border-box;
+  animation: conference 5s infinite linear;
+}
+
+.number2 {
+  position: absolute;
+  top: 84vh;
+  left: 16vw;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-size: 2.3vw;
+  font-family: 'Inter-Regular';
+  font-weight: 570;
+  z-index: 2;
+  text-align: center;
+  animation: bounce8 3s infinite linear;
+}
+
+.number9 {
+  position: absolute;
+  top: 41vh;
+  left: 5vw;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-size: 2.3vw;
+  font-family: 'Inter-Regular';
+  font-weight: 570;
+  text-align: center;
+  z-index: 2;
+  animation: bounce7 3s infinite linear;
+}
+
+.number_star {
+  position: absolute;
+  top: 103vh;
+  left: 39vw;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-size: 2.3vw;
+  font-family: 'Inter-Regular';
+  font-weight: 570;
+  text-align: center;
+  z-index: 3;
+  animation: star 0.5s linear infinite;
+}
+
+.number_star2 {
+  position: absolute;
+  top: 34vh;
+  left: 62vw;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-size: 2.3vw;
+  font-family: 'Inter-Regular';
+  font-weight: 570;
+  text-align: center;
+  z-index: 3;
+  animation: star 0.5s linear infinite;
+}
+
+.number_star3 {
+  position: absolute;
+  top: 84vh;
+  left: 94vw;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-size: 2.3vw;
+  font-family: 'Inter-Regular';
+  font-weight: 570;
+  text-align: center;
+  z-index: 3;
+  animation: star 0.5s linear infinite;
+}
+
+.number3 {
+  position: absolute;
+  top: 60vh;
+  left: -90vw;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-size: 2.3vw;
+  font-family: 'Inter-Regular';
+  font-weight: 570;
+  text-align: center;
+  z-index: 10;
+  animation: bounce3 3s infinite linear;
+}
+
+.numberf {
+  position: absolute;
+  top: 46vh;
+  left: 84vw;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-size: 2.3vw;
+  font-family: 'Inter-Regular';
+  font-weight: 570;
+  text-align: center;
+  z-index: 10;
+  animation: bounce2 2s infinite linear;
+}
+
+.number87 {
+  position: absolute;
+  top: 113vh;
+  left: 93vw;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-size: 2.3vw;
+  font-family: 'Inter-Regular';
+  font-weight: 570;
+  text-align: center;
+  z-index: 10;
+  animation: bounce1 3s infinite linear;
+}
+
+.facetop,
+.facebot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.face1 {
+  width: 50%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.face2 {
+  width: 60%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.face3 {
+  object-fit: cover;
+  width: 50%;
+  height: auto;
+  z-index: 1;
+}
+
+.face4 {
+  width: 60%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.face5 {
+  object-fit: cover;
+  width: 50%;
+  height: auto;
+  z-index: 1;
+}
+
+.f1t1 {
+  position: absolute;
+  top: 4vh;
+  left: 2vw;
+  color: white;
+  font-size: 1.9vw;
+  font-family: 'Inter-Regular';
+  font-weight: 570;
+  text-align: center;
+  z-index: 2;
+  animation: f1t1 5s infinite linear;
+  background-color: #634c00;
+}
+
+.f1t2 {
+  position: absolute;
+  top: 50vh;
+  left: 33vw;
+  color: white;
+  background-color: #634c00;
+  font-size: 1.9vw;
+  font-family: 'Inter-Regular';
+  font-weight: 570;
+  text-align: center;
+  z-index: 2;
+  animation: f1t2 5s infinite linear;
+}
+
+.f1t3 {
+  position: absolute;
+  top: 20vh;
+  left: 6vw;
+  color: white;
+  background-color: #634c00;
+  font-size: 1.9vw;
+  font-family: 'Inter-Regular';
+  font-weight: 570;
+  text-align: center;
+  z-index: 2;
+  animation: f1t3 3.5s linear infinite;
+  animation-timeline: auto;
+}
+
+.f2t1 {
+  position: absolute;
+  top: 26vh;
+  left: 53vw;
+  color: white;
+  background-color: #634c00;
+  font-size: 1.9vw;
+  font-family: 'Inter-Regular';
+  font-weight: 570;
+  text-align: center;
+  z-index: 2;
+  animation: f2t1 5s infinite linear;
+}
+
+.f2t2 {
+  position: absolute;
+  top: 48vh;
+  left: 65vw;
+  color: white;
+  background-color: #634c00;
+  font-size: 1.9vw;
+  font-family: 'Inter-Regular';
+  font-weight: 570;
+  text-align: center;
+  z-index: 2;
+  animation: f1t3 3.5s linear infinite;
+  animation-timeline: auto;
+}
+
+.f2t3 {
+  position: absolute;
+  top: 14vh;
+  left: 87vw;
+  color: white;
+  background-color: #634c00;
+  font-size: 1.9vw;
+  font-family: 'Inter-Regular';
+  font-weight: 570;
+  text-align: center;
+  z-index: 2;
+  animation: f2t3 5s infinite linear;
+}
+
+.f3t1 {
+  position: absolute;
+  top: 46vh;
+  left: 10vw;
+  color: white;
+  font-size: 1.9vw;
+  font-family: 'Inter-Regular';
+  font-weight: 570;
+  text-align: center;
+  z-index: 2;
+  animation: f1t2 5s infinite linear;
+}
+
+.f4t1 {
+  position: absolute;
+  top: 10vh;
+  left: 28vw;
+  color: white;
+  border: 0.3vw solid #634c00;
+  font-size: 1.9vw;
+  font-family: 'Inter-Regular';
+  font-weight: 570;
+  text-align: center;
+  z-index: 2;
+  animation: f2t3 5s infinite linear;
+}
+
+.f4t2 {
+  position: absolute;
+  top: 40vh;
+  left: 60vw;
+  color: white;
+  border: 0.3vw solid #634c00;
+  font-size: 1.9vw;
+  font-family: 'Inter-Regular';
+  font-weight: 570;
+  text-align: center;
+  z-index: 2;
+  animation: f1t2 5s infinite linear;
+}
+
+.f4t3 {
+  position: absolute;
+  top: 45vh;
+  left: 42vw;
+  color: white;
+  border: 0.3vw solid #634c00;
+  font-size: 1.9vw;
+  font-family: 'Inter-Regular';
+  font-weight: 570;
+  text-align: center;
+  z-index: 2;
+  animation: f1t3 3.5s linear infinite;
+  animation-timeline: auto;
+}
+
+.f5t1 {
+  position: absolute;
+  top: 7vh;
+  left: 79vw;
+  color: white;
+  font-size: 1.9vw;
+  font-family: 'Inter-Regular';
+  font-weight: 570;
+  text-align: center;
+  z-index: 2;
+  animation: f1t1 5s infinite linear;
+}
+
+.f5t2 {
+  position: absolute;
+  top: 23vh;
+  left: 87vw;
+  color: white;
+  font-size: 1.9vw;
+  font-family: 'Inter-Regular';
+  font-weight: 570;
+  text-align: center;
+  z-index: 2;
+  animation: f5t2 3s infinite linear;
+}
+
+.numbers {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+  position: relative;
+  justify-content: space-between;
+  margin-top: 30vh;
+}
+
+.number_1,
+.number_2,
+.number_3,
+.number_4 {
+  width: 50%;
+  aspect-ratio: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.img {
+  height: auto;
+  display: block;
+}
+
+.number_1 {
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.number_1::before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  aspect-ratio: 4.4;
+  background-image: url('../img/selection4/extra_number1.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: -20%;
+  left: 0;
+  z-index: 8;
+}
+
+.number_2 {
+  display: block;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: baseline;
+}
+
+.number_3 {
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.number_4 {
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.number_4::after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  aspect-ratio: 4.4;
+  background-image: url('../img/selection4/bot_red.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  bottom: -20%;
+  left: 0;
+  z-index: 8;
+}
+
+.img_number1,
+.img_number2,
+.img_number3,
+.img_number4 {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.star_img1,
+.star_img2,
+.star_img3,
+.star_img4 {
+  top: 2.5%;
+  left: 1.5%;
+  width: 15%;
+  aspect-ratio: 1;
+  position: absolute;
+  z-index: 2;
+}
+
+.aud_1 {
+  position: absolute;
+  top: 3%;
+  left: 18%;
+  color: #ff0000;
+  background-color: #780303;
+  font-size: 4.87vw;
+  font-family: 'Inter-Regular';
+  font-weight: 570;
+  line-height: 4vw;
+  text-align: left;
+  z-index: 2;
+}
+
+.big_1 {
+  position: absolute;
+  bottom: -15%;
+  left: 9%;
+  color: #ff0000;
+  -webkit-text-stroke: 0.5vw #634c00;
+  font-size: 53.3vw;
+  font-family: 'TeletactileLatCyr';
+  font-weight: 570;
+  text-align: center;
+  z-index: 2;
+  animation: big1 2s linear infinite;
+}
+
+.small_1 {
+  position: absolute;
+  bottom: 38.8%;
+  left: 70%;
+  color: #af0000;
+  font-size: 32.46vw;
+  font-family: 'TeletactileLatCyr';
+  font-weight: 570;
+  text-align: center;
+  z-index: 2;
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both infinite;
+}
+
+.aud_2 {
+  position: absolute;
+  top: 3%;
+  left: 18%;
+  color: #ff2f00;
+  background-color: #7a2704;
+  font-size: 4.87vw;
+  font-family: 'Inter-Regular';
+  font-weight: 570;
+  line-height: 4vw;
+  text-align: left;
+  z-index: 2;
+}
+
+.big_2 {
+  position: absolute;
+  bottom: -15%;
+  left: 4%;
+  color: #ff0000;
+  -webkit-text-stroke: 0.5vw #634c00;
+  font-size: 53.3vw;
+  font-family: 'TeletactileLatCyr';
+  font-weight: 570;
+  text-align: center;
+  z-index: 2;
+  animation: big1 2s linear infinite;
+}
+
+.small_2 {
+  position: absolute;
+  bottom: 38.8%;
+  left: 62%;
+  color: #af0000;
+  font-size: 32.46vw;
+  font-family: 'TeletactileLatCyr';
+  font-weight: 570;
+  text-align: center;
+  z-index: 2;
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both infinite;
+}
+
+.aud_3 {
+  position: absolute;
+  top: 3%;
+  left: 18%;
+  color: #ea00ff;
+  background-color: #70047f;
+  font-size: 4.87vw;
+  font-family: 'Inter-Regular';
+  font-weight: 570;
+  line-height: 4vw;
+  text-align: left;
+  z-index: 2;
+}
+
+.big_3 {
+  position: absolute;
+  bottom: -15%;
+  left: 4%;
+  color: #ea00ff;
+  -webkit-text-stroke: 0.4vw #634c00;
+  font-size: 53.3vw;
+  font-family: 'TeletactileLatCyr';
+  font-weight: 570;
+  text-align: center;
+  z-index: 2;
+  animation: big1 2s linear infinite;
+}
+
+.small_3 {
+  position: absolute;
+  bottom: 38.8%;
+  left: 62%;
+  color: #a100a6;
+  font-size: 32.46vw;
+  font-family: 'TeletactileLatCyr';
+  font-weight: 570;
+  text-align: center;
+  z-index: 2;
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both infinite;
+}
+
+.aud_4 {
+  position: absolute;
+  top: 3%;
+  left: 18%;
+  color: #ff3700;
+  background-color: #7f2107;
+  font-size: 4.87vw;
+  font-family: 'Inter-Regular';
+  font-weight: 570;
+  line-height: 4vw;
+  text-align: left;
+  z-index: 4;
+}
+
+.big_4 {
+  position: absolute;
+  bottom: -15%;
+  left: 4%;
+  color: #ff3700;
+  -webkit-text-stroke: 0.4vw #634c00;
+  font-size: 53.3vw;
+  font-family: 'TeletactileLatCyr';
+  font-weight: 570;
+  text-align: center;
+  z-index: 2;
+  animation: big1 2s linear infinite;
+}
+
+.small_4 {
+  position: absolute;
+  bottom: 38.8%;
+  left: 62%;
+  color: #af0000;
+  font-size: 32.46vw;
+  font-family: 'TeletactileLatCyr';
+  font-weight: 570;
+  text-align: center;
+  z-index: 2;
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both infinite;
+}
+
+.section5 {
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 59.32vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.stripes_red {
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  min-height: 20vw;
+  z-index: 1;
+  margin-top: -14vw;
+}
+
+.img_starname {
+  position: absolute;
+  top: 101.8vh;
+  left: 47vw;
+  z-index: 4;
+}
+
+.designed {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.34vw;
+  top: 104vh;
+  left: 40vw;
+  font-family: 'ZT_formom';
+  color: white;
+  max-width: 100%;
+  z-index: 3;
+}
+
+.misha {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.35vw;
+  top: 102.6vh;
+  left: 48vw;
+  font-family: 'ZT_formom';
+  color: white;
+  max-width: 100%;
+  z-index: 3;
+}
+
+.zavod_red {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 7vw;
+  top: 45vh;
+  left: 27vw;
+  font-family: 'TeletactileLatCyr';
+  color: white;
+  background-color: #f13032;
+  max-width: 100%;
+  z-index: 3;
+  animation: f1t3 3.5s linear infinite;
+  animation-timeline: auto;
+}
